@@ -45,7 +45,7 @@ let sahara_animal = "The Addax";
  *
  */
 
- let galilean_moons = ["Io", "Europa", "Ganymede", "Callisto"];
+  let galilean_moons = ["Io", "Europa", "Ganymede", "Callisto"];
 
 
 /* Step 6 φ
@@ -148,6 +148,14 @@ let sahara_animal = "The Addax";
  *
  */
 
+let browsers = {
+  Chromium  : "google.com",
+  Safari    : "apple.com",
+  Opera     : "opera.com",
+  Firefox   : "mozilla.org",
+  Sleipnir  : "fenrir-inc.com",
+  Konqueror : "konqueror.org"
+};
 
 /* Step 13
  *
@@ -166,6 +174,20 @@ let sahara_animal = "The Addax";
  *
  */
 
+ let rainbow = {
+
+  colors : {
+    red     : "#F0280A",
+    orange  : "#FF8800",
+    yellow  : "#FFDD00",
+    green   : "#51AB0C",
+    blue    : "#1593ED",
+    indigo  : "#5215ED",
+    violet  : "#A915ED"
+  },
+
+  isDouble : true
+ };
 
 /* Step 14
  *
@@ -181,6 +203,8 @@ let sahara_animal = "The Addax";
  *
  */
 
+ let linuxFlavors = [ "Gentoo", "Fedora", "Debian", "Slackware", "Red Hat", "Bieber Linux"];
+
 
 /* Step 15
  *
@@ -195,6 +219,8 @@ let sahara_animal = "The Addax";
  *
  */
 
+ let DNA = ["nucleatides", "guanine", "adenine", "thymine", "cytosine" ];
+
 
 /* Step 16
  *
@@ -207,6 +233,13 @@ let sahara_animal = "The Addax";
  * Surface      => 320
  *
  */
+
+ let laptopCosts = {
+  MacBook : 1500,
+  Alienware : 2500,
+  HP : 499,
+  Surface : 320
+ };
 
 
 /* Step 17
@@ -224,6 +257,8 @@ let sahara_animal = "The Addax";
  *
  */
 
+ let livingOrganismClassification = [ "Kingdom", "Phylum", "Class", "Order", "Family", "Genus", "Species"];
+
 
 /* Step 18
  *
@@ -237,6 +272,8 @@ let sahara_animal = "The Addax";
  * "cvs"
  *
  */
+
+ let scmList = ["git", "svn", "mercurial", "bazaar", "cvs"];
 
 
 /* Step 19
@@ -257,6 +294,15 @@ let sahara_animal = "The Addax";
  *
  */
 
+ let beers = {
+  IPA : "Ale",
+  Lager : "Strong",
+  Heffeweisen : "German",
+  Stout : ["Thick", "Dark"],
+  Porter : "Bitter",
+  Ale : [ "Light", "Dark"]
+ };
+
 
 /* Step 20
  *
@@ -267,6 +313,9 @@ let sahara_animal = "The Addax";
  *
  */
 
+ function sahara_river(){
+  return "Nile River";
+ }
 
 /* Step 21
  *
